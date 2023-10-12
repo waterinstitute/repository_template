@@ -8,7 +8,6 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
-build/
 develop-eggs/
 dist/
 downloads/
@@ -90,7 +89,7 @@ target/
 
 #joyvan dir
 /jovyan/
-.config
+#.config
 .grass7
 .ipython
 .jupyter
