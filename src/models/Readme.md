@@ -1,6 +1,4 @@
-# A guide to Flood Predictor's training approach
-
-Flood Predictor is composed of many models representing flood maps at regular 1 inch increments in runoff. Each of those models is trained against flood maps from many hucs created with the use of a Generalized Extreme Value distribution to determine which pixels are flooded for each runoff value.
+# A guide to the ML models's training approach
 
 To select the best performing training run, we log a set of tags, hyperparameters, and metrics. Each of these is listed in detail below.
 
@@ -60,7 +58,7 @@ The `azureml-interpret` module is designed to work with sklearn workflows. There
 
 ### Optimizing metric
 
-The F1 score is chosen as the optimizing metric for Flood Predictor given the skewed data labels where most of them are not flooded.
+The F1 score is chosen as the optimizing metric for skewed data labels.
 
 ### Satisficing metrics
 
