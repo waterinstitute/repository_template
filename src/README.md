@@ -98,7 +98,7 @@ git clone https://the-address-to-the-git-repo
 
 ## Setting the Remote
 
-it already added a Git remote named origin to the clone of the Git repository on your system, and this will allow you to push changes back up to the forked repository in your GitHub account using git commit (to add commits locally) and git push. I described this process in the previous article on using Git with GitHub.
+Git already added a Git remote named origin to the clone of the Git repository on your system, and this will allow you to push changes back up to the forked repository in your GitHub account using git commit (to add commits locally) and git push. I described this process in the previous article on using Git with GitHub.
 
 Recall that the generic form of git push is this git push <remote> <branch>; this implies that there could be other Git remotes besides origin. That is definitely the case; as I mentioned in the previous article, you’ll need a Git remote for any repository to which you’d like push changes or from which you’d like to pull changes.
 
@@ -156,6 +156,6 @@ The following plugins are not necessary, unless planning to work with Kubernetes
 Install git and git bash from here:
 https://git-scm.com/downloads
 
-## Disconnecting from the Corporate Firewall
+## Disconnecting from the Firewall
 
-Many times extensions from VS code, as well as work involving downloading information (from vetted sources) requires a disconnection from the corporate firewall. Dissconnection can be done be clicking on Global Connect and selecting the disable option. The disable option will give a ticket number. This ticket number then is given to IT (through an ITSC chat session). In turn IT, will then given a code for disabling the VPN of Global Protect.
+Many times extensions from VS code, as well as work involving downloading information (from vetted sources) requires a disconnection from the firewall.

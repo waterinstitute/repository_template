@@ -63,7 +63,7 @@ IT has imposed policies....
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
-    ├── build              <- Configuration files for the project.
+    ├── config             <- Configuration files for the project.
     ├── build              <- Files for building environments
     │   ├── docker         <- Docker-compose, Dockerfile, requirements, etc. for the project.
     │   ├── k8s            <- Kubernetes files for the project
